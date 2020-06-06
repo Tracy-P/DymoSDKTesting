@@ -1,0 +1,12 @@
+﻿<Application x:Class="WpfCore.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfCore"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <vm:ViewModelLocator x:Key="Locator"
+                                 xmlns:vm="clr-namespace:WpfCore.ViewModels"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
